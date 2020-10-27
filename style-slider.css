@@ -1,0 +1,96 @@
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track{
+  display: flex;
+}
+
+.header__content_slider .slick-prev,
+.header__content_slider .slick-next {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  outline: none;
+  font-size: 0;
+  z-index: 5;
+  top: 166px;
+}
+
+.header__content_slider .slick-prev {
+  background-image: url("img/left-arrow.png");
+  background-position: 18px 38px;
+  left: 0px;
+}
+
+.header__content_slider .slick-next {
+  background-image: url("img/right-arrow.png");
+  background-position: 64px 38px;
+  right: 0px;
+}
+
+.header__content_slider .slick-dots,
+.portfolio__slider .slick-dots,
+.clients__reviews_slider .slick-dots,
+.contact__top_slider .slick-dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+
+.header__content_slider .slick-dots {
+  margin-top: 40px;
+}
+
+.portfolio__slider .slick-dots {
+  margin-top: 15px;
+}
+
+.clients__reviews_slider .slick-dots,
+.contact__top_slider .slick-dots {
+  margin-top: 12px;
+}
+
+.header__content_slider .slick-dots li,
+.portfolio__slider .slick-dots li,
+.clients__reviews_slider .slick-dots li,
+.contact__top_slider .slick-dots li {
+  list-style: none;
+}
+
+.header__content_slider .slick-dots li button,
+.portfolio__slider .slick-dots li button,
+.clients__reviews_slider .slick-dots li button,
+.contact__top_slider .slick-dots li button {
+  font-size: 0;
+  width: 21px;
+  height: 21px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 0 3px #000000;
+  margin: 0 7px;
+  outline: none;
+}
+
+.header__content_slider .slick-dots li.slick-active button,
+.contact__top_slider .slick-dots li.slick-active button {
+  background-color: #0BC7B4;
+}
+
+.portfolio__slider .slick-dots li.slick-active button,
+.clients__reviews_slider .slick-dots li.slick-active button {
+  background-color: #192C3B;
+}
+
+.header__content_slider .slick-dots li button:hover,
+.portfolio__slider .slick-dots li button:hover,
+.clients__reviews_slider .slick-dots li button:hover,
+.contact__top_slider .slick-dots li button:hover {
+  box-shadow: 0 0 8px #000000;
+}
